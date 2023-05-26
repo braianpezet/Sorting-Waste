@@ -1,0 +1,26 @@
+<annotation>
+	<folder>metal</folder>
+	<filename>metal (180).jpg</filename>
+	<path>D:\datasets\dataset mezclado incluye fotos propias\metal\metal (180).jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>800</width>
+		<height>800</height>
+		<depth>1</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>metal</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>137</xmin>
+			<ymin>304</ymin>
+			<xmax>663</xmax>
+			<ymax>544</ymax>
+		</bndbox>
+	</object>
+</annotation>

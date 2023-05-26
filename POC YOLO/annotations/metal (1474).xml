@@ -1,0 +1,26 @@
+<annotation>
+	<folder>metal</folder>
+	<filename>metal (1474).jpg</filename>
+	<path>C:\Users\lucia\OneDrive\Escritorio\metal\metal (1474).jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>4032</width>
+		<height>2268</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>metal</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>785</xmin>
+			<ymin>125</ymin>
+			<xmax>3823</xmax>
+			<ymax>2147</ymax>
+		</bndbox>
+	</object>
+</annotation>
