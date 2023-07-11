@@ -1,0 +1,4 @@
+Train/box_loss:Un valor menor indica una mejor capacidad del modelo para clasificar correctamente los objetos.
+Train/cls_loss:Un valor menor indica una mejor capacidad del modelo para clasificar correctamente los objetos.
+Train/precision: Mide la proporción de detecciones positivas que son realmente correctas. Un valor más alto indica una mayor precisión en la detección de objetos.
+Train/recall: Mide la proporción de objetos positivos que se detectaron correctamente. Un valor más alto indica una mayor capacidad del modelo para encontrar todos los objetos positivos presentes en el conjunto de datos.

@@ -1,0 +1,5 @@
+train:  C:\Users\braianpezet\Nueva carpeta\Sorting-Waste\pocyolo\Data\train\
+val:  C:\Users\braianpezet\Nueva carpeta\Sorting-Waste\pocyolo\Data\val\
+test:
+nc: 4
+names: ["glass", "metal", "papel", "plastic"]

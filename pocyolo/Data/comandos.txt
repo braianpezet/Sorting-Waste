@@ -1,0 +1,1 @@
+yolo task=detect mode=train epochs=30 data=dataset.yaml model=yolov8m.pt imgsz=640 batch=1
