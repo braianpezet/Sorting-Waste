@@ -75,8 +75,9 @@ Se recomienda hacer una copia de los modelos entrenados para luego poder hacer c
 
 Este codigo carga un modelo y muestra los resultados a traves de la camara, en la ultima actualizacion se imprimen en pantalla las coordenadas. Pueden jugar con el tamaño de la ventana, etc.
 
+Recomiendo el tutorial de Aprende e ingenia. Muchas gracias!
 
-
+https://www.youtube.com/watch?v=rk7zOBRJWCc
 
 
 
