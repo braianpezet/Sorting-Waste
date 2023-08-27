@@ -75,6 +75,16 @@ Se recomienda hacer una copia de los modelos entrenados para luego poder hacer c
 
 Este codigo carga un modelo y muestra los resultados a traves de la camara, en la ultima actualizacion se imprimen en pantalla las coordenadas. Pueden jugar con el tamaño de la ventana, etc.
 
+Algunos de los requerimientos para ejecutar el programa son:
+
+```bash
+pip install ultralytics
+pip install opencv-python
+```
+Para usar OpenCv tambien es necesario tener instalado
+
+https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170
+
 Recomiendo el tutorial de Aprende e ingenia. Muchas gracias!
 
 https://www.youtube.com/watch?v=rk7zOBRJWCc
