@@ -23,7 +23,7 @@ Basicamente carga un modelo guardado en la carpeta saved_model y ejecuta un algo
 
 ## Detección de residuos
 
-La otra parte del proyecto tiene que ver con deteccion de objetos. Todo esto se encuentra en la carpeta **POCYOLO**
+La otra parte del proyecto tiene que ver con deteccion de objetos. Todo esto se encuentra en la carpeta **Deteccion de objetos**
 
 Actualmente para esto recomiendo el uso del ide pycharm en ves de usar anaconda y jupyter notebook.
 
