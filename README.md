@@ -1,5 +1,6 @@
 
 # Sorting Waste 
+<img src="https://github.com/braianpezet/Sorting-Waste/blob/main/screenshots/1.jpg" width="100">
 
 Proyecto de clasificación de reciclables a traves IA y machine learning
 
@@ -89,7 +90,9 @@ Recomiendo el tutorial de Aprende e ingenia. Muchas gracias!
 
 https://www.youtube.com/watch?v=rk7zOBRJWCc
 
-
+## Capturas
+![](screenshots/4.jpeg)
+![](screenshots/2.jpeg)
 
 
 
