@@ -1,0 +1,18 @@
+description: Ultralytics best model trained on Data/dataset.yaml
+author: Ultralytics
+license: AGPL-3.0 https://ultralytics.com/license
+date: '2024-07-24T21:18:13.356458'
+version: 8.0.169
+stride: 32
+task: detect
+batch: 1
+imgsz:
+- 640
+- 640
+names:
+  0: glass
+  1: metal
+  2: plastic
+  3: papel
+  4: no reciclable
+  5: organico
