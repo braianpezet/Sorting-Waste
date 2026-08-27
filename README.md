@@ -3,92 +3,39 @@
 <img src="https://github.com/braianpezet/Sorting-Waste/blob/main/screenshots/1.jpg" width="100">
 
 Proyecto de clasificación de reciclables a traves IA y machine learning
+# 🗑️ Sorting Waste
 
-## Clasificación de residuos
-La parte de clasificacion de residuos consta principalmente de dos archivos **entrenador.ipynb** y **loadModel.ipynb**.
+> Sistema inteligente de clasificación de residuos mediante IA y Machine Learning
 
-**entrenador.ipynb**
+[![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange.svg)](https://jupyter.org/)
 
-Usa transfer learning y mobilnetV2 para entrenar un modelo de clasificacion por imagenes.
+<img src="https://github.com/braianpezet/Sorting-Waste/blob/main/screenshots/1.jpg" width="300" alt="Sorting Waste Demo">
 
-Recomiendo guardar los modelos entrenados, cambiando estas rutas en el codigo para no sobreescribir los modelos anteriores
+## 📋 Descripción
 
-```bash
-  modelo.save('saved_model/my_model2')
-```
+**Sorting Waste** es un proyecto que implementa un sistema de clasificación automática de residuos reciclables utilizando **Transfer Learning** con MobileNetV2 y **detección de objetos** con YOLOv26. El sistema puede identificar y clasificar residuos en tiempo real a través de la cámara.
 
-**loadModel.ipynb**
+### 🎯 Características Principales
 
-Basicamente carga un modelo guardado en la carpeta saved_model y ejecuta un algoritmo de opencv que va sacando capturas de pantalla y va mostrando la prediccion en pantalla.
+- **Clasificación de imágenes**: Modelo entrenado con Transfer Learning 
+- **Detección de objetos**: Implementación con YOLOv26 para localización en tiempo real (No se incluye modelo por seguridad) 
+- **Procesamiento en vivo**: Análisis de video en tiempo real desde cámara
+- **Múltiples categorías**: Clasificación en vidrio, metal, papel y plástico
+- **Modelos entrenables**: Scripts para entrenar tus propios modelos
 
+---
 
-## Detección de residuos
+## 🚀 Inicio Rápido
 
-La otra parte del proyecto tiene que ver con deteccion de objetos. Todo esto se encuentra en la carpeta **Deteccion de objetos**
+### Requisitos Previos
 
-Actualmente para esto recomiendo el uso del ide pycharm en ves de usar anaconda y jupyter notebook.
-
-**dataset.yaml**
-
-Este es uno de los archivos más importantes, en el se configuran las rutas de las imagenes y la cantidad de clases
-
-```bash
-  train:  C:\Users\braianpezet\Nueva carpeta\Sorting-Waste\pocyolo\Data\train\
-  val:  C:\Users\braianpezet\Nueva carpeta\Sorting-Waste\pocyolo\Data\val\
-  test:
-  nc: 4
-  names: ["glass", "metal", "papel", "plastic"]
-```
-
-deben poner las rutas correspondientes a las carpetas de su computadora para el entrenamiento.
-
-**Estructura de los directorios**
-
-Basicamente hay dos carpetas principales **train** y **val**, en el hay que poner las fotos todas juntas, junto con las anotaciones. En mi caso use un 10% para validacion.
-
-**Prepar conjunto de datos**
-
-Para preparar un conjunto de datos, puede que este este en el formato xml y no en el formato YOLO para ello hay que poner todos los datos como pide el script **xml2yolo.py**, este se encargara de realizar la conversion de manera automatica
-
-**Hacer un entrenamiento**
-
-En mi caso use la consola de pychar, en la cual estos son unos ejemplos de los comandos que se pueden usar para el entrenamiento
-
-```bash
-yolo task=detect mode=train epochs=30 data=dataset.yaml model=yolov8m.pt imgsz=640 batch=1
-```
-
-A su ves si tienen algun problema como un corte de luz es posible reanudar el entrenamiento con estos comandos
-
-```bash
-Yolo task=detect mode=train resume model=/runs/detect/train/weights/last.pt data=dataset.yaml epochs=10 imgsz=640 batch=2
-```
-
-Para más informacion consultar https://github.com/ultralytics/ultralytics
-hay distintos modelos que se pueden utilizar algunos más pesados que otros.
-
-El entrenamiento va a generar la carpeta **runs** donde los archivos más importantes son **best** y **last**, last se puede usar para reanudar un entrenamiento y best para usar el codigo de la camara que es **segment.py**
-
-el archivo **best** actual esta entrenado con el modelo "s" y con 50 epocas
-Se recomienda hacer una copia de los modelos entrenados para luego poder hacer comparaciones
-
-**Archivo segment.py**
-
-Este codigo carga un modelo y muestra los resultados a traves de la camara, en la ultima actualizacion se imprimen en pantalla las coordenadas. Pueden jugar con el tamaño de la ventana, etc.
-
-Algunos de los requerimientos para ejecutar el programa son:
-
-```bash
-pip install ultralytics
-pip install opencv-python
-```
-Para usar OpenCv tambien es necesario tener instalado
-
-https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170
-
-Recomiendo el tutorial de Aprende e ingenia. Muchas gracias!
-
-https://www.youtube.com/watch?v=rk7zOBRJWCc
+- Python 3.8+
+- pip
+- Git
+- Cámara web (para ejecución en tiempo real)
+- [Visual C++ Redistributable](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170) (Windows)
 
 ## Capturas
 ![](screenshots/4.jpeg)
