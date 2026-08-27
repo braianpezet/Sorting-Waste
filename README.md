@@ -34,7 +34,7 @@ Proyecto de clasificación de reciclables a traves IA y machine learning
 - [Visual C++ Redistributable](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170) (Windows)
 
 ## Capturas
-![](screenshots/4.jpeg)
+![](screenshots/Interfaz grafica .png)
 ![](screenshots/2.jpeg)
 
 
