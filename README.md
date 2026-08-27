@@ -1,7 +1,4 @@
 
-# Sorting Waste 
-<img src="https://github.com/braianpezet/Sorting-Waste/blob/main/screenshots/1.jpg" width="100">
-
 Proyecto de clasificación de reciclables a traves IA y machine learning
 # 🗑️ Sorting Waste
 
