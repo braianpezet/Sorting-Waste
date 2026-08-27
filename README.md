@@ -8,7 +8,6 @@ Proyecto de clasificación de reciclables a traves IA y machine learning
 > Sistema inteligente de clasificación de residuos mediante IA y Machine Learning
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange.svg)](https://jupyter.org/)
 
 <img src="https://github.com/braianpezet/Sorting-Waste/blob/main/screenshots/1.jpg" width="300" alt="Sorting Waste Demo">
